@@ -20,6 +20,8 @@ class DACClass
 {
 protected:
 
+
+
 public:
 	int T = 0;
 	int k = 1;
@@ -37,8 +39,7 @@ public:
 	void prepare(int maximumPin, int minimumPin);
 	unsigned int sino(float amplitude, float freqTune, int count, boolean cosino = false);
 	unsigned int ramp(float amplitude, float freqTune, int count);
-	//	u//nsigned int sino(float amplitude, float freqTune, int count);
-	//	unsigned int sin(float amplitude, float freqTune, int count);
+
 };
 
 extern DACClass DAC;

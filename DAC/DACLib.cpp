@@ -5,7 +5,6 @@
 #include "DACLib.h"
 
 
-
 void DACClass::init()
 {
 }
@@ -15,8 +14,6 @@ void DACClass::print(unsigned int value, int maximumPin, int minimumPin)
 	for (int i = maximumPin; i >= minimumPin; i--)
 	{
 		int o = bitRead(value, i - minimumPin);
-		//Serial.print(o);
-		//Serial.print("");
 		digitalWrite(i, o);
 	}
 }

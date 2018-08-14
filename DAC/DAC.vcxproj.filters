@@ -21,12 +21,12 @@
     <ClInclude Include="__vm\.DAC.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DAC.h">
+    <ClInclude Include="DACLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DAC.cpp">
+    <ClCompile Include="DACLib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

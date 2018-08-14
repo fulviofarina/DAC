@@ -82,11 +82,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DAC.h" />
+    <ClInclude Include="DACLib.h" />
     <ClInclude Include="__vm\.DAC.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DAC.cpp" />
+    <ClCompile Include="DACLib.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
